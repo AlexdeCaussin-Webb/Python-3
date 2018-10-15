@@ -54,7 +54,8 @@ def checkCave(chosenCave):
         print('''You fall into a bottomless pit and meet your demise.''')
 
     if chosenCave == str(letterCave):
-        print('You find a single letter in the middle of the vast cavern with the following script: Valuable life advice: Avoid walking into random caves for maximum longevity.')
+        print('''You find a single letter in the middle of the vast cavern with a single sentence on it.
+Valuable life advice: Avoid walking into random caves for maximum longevity.''')
 
 playAgain = 'yes'
 while playAgain == 'yes' or playAgain == 'y':
